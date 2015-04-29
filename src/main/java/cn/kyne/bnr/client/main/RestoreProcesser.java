@@ -1,4 +1,4 @@
-package com.hp.bnr.client.main;
+package cn.kyne.bnr.client.main;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -10,17 +10,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.hp.bnr.client.pojo.Configer;
-import com.hp.bnr.client.pojo.FileInfo;
-import com.hp.bnr.client.pojo.Manifest;
-import com.hp.bnr.client.util.FileUtil;
+import cn.kyne.bnr.client.pojo.Configer;
+import cn.kyne.bnr.client.pojo.FileInfo;
+import cn.kyne.bnr.client.pojo.Manifest;
+import cn.kyne.bnr.client.util.FileUtil;
 
 public class RestoreProcesser extends BnrProcesser{
     private static final Logger logger = LoggerFactory.getLogger(RestoreProcesser.class);

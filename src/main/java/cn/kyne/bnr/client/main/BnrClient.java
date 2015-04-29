@@ -1,4 +1,4 @@
-package com.hp.bnr.client.main;
+package cn.kyne.bnr.client.main;
 
 import java.io.IOException;
 import java.util.Observable;
@@ -8,7 +8,7 @@ import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
-import com.hp.bnr.client.pojo.Configer;
+import cn.kyne.bnr.client.pojo.Configer;
 
 public class BnrClient implements Observer{
     BackupThread backup;

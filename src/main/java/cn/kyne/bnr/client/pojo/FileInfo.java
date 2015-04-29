@@ -1,4 +1,4 @@
-package com.hp.bnr.client.pojo;
+package cn.kyne.bnr.client.pojo;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.map.annotate.JsonSerialize;

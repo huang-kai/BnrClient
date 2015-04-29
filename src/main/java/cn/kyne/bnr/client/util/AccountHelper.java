@@ -1,4 +1,4 @@
-package com.hp.bnr.client.util;
+package cn.kyne.bnr.client.util;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.hp.bnr.client.pojo.Configer;
+import cn.kyne.bnr.client.pojo.Configer;
 
 public class AccountHelper {
 

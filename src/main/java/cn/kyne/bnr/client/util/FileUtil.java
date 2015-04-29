@@ -1,4 +1,4 @@
-package com.hp.bnr.client.util;
+package cn.kyne.bnr.client.util;
 
 import java.io.Closeable;
 import java.io.File;

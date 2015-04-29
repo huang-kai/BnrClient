@@ -1,4 +1,4 @@
-package com.hp.bnr.client.pojo;
+package cn.kyne.bnr.client.pojo;
 
 public class Configer {
 

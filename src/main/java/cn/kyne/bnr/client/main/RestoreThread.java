@@ -1,4 +1,4 @@
-package com.hp.bnr.client.main;
+package cn.kyne.bnr.client.main;
 
 import java.util.Observable;
 
@@ -6,7 +6,7 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.hp.bnr.client.pojo.Configer;
+import cn.kyne.bnr.client.pojo.Configer;
 
 public class RestoreThread extends Observable implements Runnable {
 
